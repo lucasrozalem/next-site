@@ -1,0 +1,16 @@
+.list {
+    list-style: none;
+    padding: 1em 0;
+    display: flex;
+}
+.list > * + * {
+    margin-left: 1rem;
+}
+
+.navAnchor {
+    text-decoration: underline;
+}
+.navAnchor:hover,
+.navAnchor:focus {
+    text-decoration: underline dotted 2px;
+}
